@@ -1,0 +1,88 @@
+#body{
+    height: 900px;
+}
+
+#readmore{
+    font-weight: bolder;
+    left: 90%;
+    font-size: 14px;
+    color: #73a9b4;
+    background: rgba(255,255,255,1);
+    border: white;
+    top: -10px;
+    float: right;
+}
+
+.content{
+    width: 90%;
+    font-size: 14px;
+    left: 30px;
+    color: #939395;
+}
+
+
+#preview{
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 400px;
+    width: 50%;
+    top: 15%;
+    left: 25%;
+    flex-direction: column;
+    display: flex;
+    background: rgba(255,255,255,1);
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#op{
+    padding-left: 80%;
+    float: right;
+    font-size: 10px;
+}
+
+#written{
+    float: right;
+    padding-right: 18px;
+    color: burlywood;
+    font-size: 14px; 
+}
+
+#ordering{
+    font-size: 14px;
+    position: fixed;
+    margin-left: 86%;
+    margin-top: 40%;
+    background-color: ghostwhite;
+    padding-right: 10px;
+    color: #72abe0;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.title{
+    font-size: 18px;
+}
+
+.upvote{
+    float: left;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 10px 5px;
+    border-color: transparent transparent #0abdbd transparent;
+}
+
+.downvote{
+    float: left;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 5px 0 5px;
+    border-color: #f7a8aa transparent transparent transparent;
+    margin-top: -9px;
+}
